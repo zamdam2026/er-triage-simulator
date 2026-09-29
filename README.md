@@ -52,14 +52,15 @@ python -m venv venv
 
 .\venv\Scripts\Activate.ps1
 
-Install Dependencies:
+_Install Dependencies:_
 
-Make sure you have the required UI framework installed:
+*Make sure you have the required UI framework installed:*
 
 **Bash**
 
 pip install streamlit
-Usage Instructions
+
+**Usage Instructions**
 
 The project features a dual-interface architecture. You can run it via the terminal or the web.
 
