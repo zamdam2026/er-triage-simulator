@@ -38,28 +38,30 @@ print-queue-diplomat/
 
 Clone the Repository:
 
-**Bash**
+```bash
 
-_git clone_
-
-[https://github.com/zamdam2026/er-triage-simulator.git](https://github.com/zamdam2026/er-triage-simulator.git)
-cd er-triage-simulator
+git clone https://github.com/zamdam2026/er-triage-simulator.git
+```
+ Navigate into the project root folder:
+   ```bash
+  cd er-triage-simulator
+   ```
 Initialize and Activate the Virtual Environment:
 
-**Bash**
+```bash
 
 python -m venv venv
 
 .\venv\Scripts\Activate.ps1
-
+```
 _Install Dependencies:_
 
 *Make sure you have the required UI framework installed:*
 
-**Bash**
+```bash
 
 pip install streamlit
-
+```
 **Usage Instructions**
 
 The project features a dual-interface architecture. You can run it via the terminal or the web.
